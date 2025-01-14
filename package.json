@@ -1,0 +1,40 @@
+{
+  "name": "automation-tests-eligibility-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Planstin/automation-tests-eligibility-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Planstin/automation-tests-eligibility-engine/issues"
+  },
+  "homepage": "https://github.com/Planstin/automation-tests-eligibility-engine#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^20.17.10",
+    "@types/ssh2-sftp-client": "^9.0.4",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "moment": "^2.30.1",
+    "mysql2": "^3.12.0",
+    "ssh2-sftp-client": "^10.0.3"
+  }
+}
